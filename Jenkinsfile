@@ -1,7 +1,7 @@
 pipeline{
 agent any stages{
 stage('Building Phase'){ steps{
-sh 'make -C /var/jenkins_home/workspace/PES1UG20CS030'
+sh 'make -C /var/jenkins_home/workspace/PES1UG20CS033'
 echo 'Deployed Successfully' }
 }
 stage('Execution Phase'){
